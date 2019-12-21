@@ -1,22 +1,507 @@
-.App {
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
 }
 
-.App-logo {
-  height: 40vmin;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+ 
+  height: 1500px; /* Used in this example to enable scrolling */
+
+    
+
+}
+.home{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Hospital.jpg") center/cover;
+  width:100%;
+  display:inline-block;
+
+
+}
+
+
+
+@keyframes example {
+  0% { transform: translateX(100%); }
+  25% { transform: translateX(80%); }
+  45% { transform: translateX(70%); }
+  50% { transform: translateX(50%); }
+  70% { transform: translateX(30%); }
+  75% { transform: translateX(10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+
+.home2{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("laboratory.jpg") center/cover;
+  width:100%;
+  display:inline-block;
+  animation-name:example;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+  
+}
+
+
+@keyframes example1 {
+  0% { transform: translateX(100%); }
+  25% { transform: translateX(80%); }
+  45% { transform: translateX(70%); }
+  50% { transform: translateX(50%); }
+  70% { transform: translateX(30%); }
+  75% { transform: translateX(10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+.home3{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
+  width:100%;
+  width:100%;
+  display:inline-block;
+  animation-name:example1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+  
+}
+
+
+@keyframes example2 {
+  0% { transform: translateX(100%); }
+  25% { transform: translateX(80%); }
+  45% { transform: translateX(70%); }
+  50% { transform: translateX(50%); }
+  70% { transform: translateX(30%); }
+  75% { transform: translateX(10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+.home4{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("staff.jpg") center/cover;
+  width:100%;
+  width:100%;
+  display:inline-block;
+  animation-name:example2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+  
+}
+
+
+
+.homeb{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Hospital.jpg") center/cover;
+  width:100%;
+  display:inline-block;
+  animation-name:sample;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+
+
+}
+
+
+@keyframes sample {
+  0% { transform: translateX(-100%); }
+  25% { transform: translateX(-80%); }
+  45% { transform: translateX(-70%); }
+  50% { transform: translateX(-50%); }
+  70% { transform: translateX(-30%); }
+  75% { transform: translateX(-10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+
+
+
+.home2b{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("laboratory.jpg") center/cover;
+  width:100%;
+  display:inline-block;
+  animation-name:sample2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+  
+}
+
+@keyframes sample2 {
+  0% { transform: translateX(-100%); }
+  25% { transform: translateX(-80%); }
+  45% { transform: translateX(-70%); }
+  50% { transform: translateX(-50%); }
+  70% { transform: translateX(-30%); }
+  75% { transform: translateX(-10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+
+
+
+.home3b{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
+  width:100%;
+  width:100%;
+  display:inline-block;
+  animation-name:sample3;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+
+  
+}
+
+@keyframes sample3 {
+  0% { transform: translateX(-100%); }
+  25% { transform: translateX(-80%); }
+  45% { transform: translateX(-70%); }
+  50% { transform: translateX(-50%); }
+  70% { transform: translateX(-30%); }
+  75% { transform: translateX(-10%); }
+  95% { transform: translateX(0%); }
+  
+}
+
+
+
+
+
+
+
+.navArrow1{
+float: left;
+width:5% ;
+height:5%;
+display:block;
+cursor: pointer;
+padding-right: 5%;
+}
+
+.navArrow2{
+
+width:5% ;
+height:5%;
+display:block;
+cursor:pointer;
+padding-left: 30%;
+
+}
+
+
+.navArrow2index{
+
+width:5% ;
+height:5%;
+display:block;
+cursor:pointer;
+padding-left: 30%;
+
+}
+
+
+.stickerNotes{
+  float: left;
+  background:white;
+  width:40%;
+  padding:5%;
+  margin-bottom: 18%;
+
+ 
+
+}
+
+.stickerNotesindex{
+  float: left;
+  background:white;
+  width:40%;
+  padding:5%;
+  margin-left:10%;
+  margin-bottom: 18%;
+
+}
+
+
+
+.sticker{
+
+  padding-left:5%;
+  padding-top: 20%;
+  display:block;
+}
+
+.noDisplay{
+  display:none;
+}
+
+.section{
+  float:left;
+  padding: 14px 16px;
+  margin:15px;
+  align-content: center;
+  text-align: center;
+ float:left;
+}
+
+
+
+
+.BookAppointment{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
+  width:100%;
+  display: inline-block;
+}
+
+
+
+.flex-container{
+ width: 90%;
+ display:flex;
+ flex-flow: row wrap;
+ align-content: center;
+text-align: center;
+justify-content: center;
+
+}
+
+
+
+
+
+.AtAGlance{
+ background: url("white-background.png");
+ width: 100%;
+ display:flex;
+ flex-flow: row wrap;
+ align-content: center;
+text-align: center;
+justify-content: center;
+}
+
+
+
+
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  width: 30%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  padding:15px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  background-color:white;
+ margin-left:60%;
+ margin-top:20%;
+ text-align: center;
+ margin-bottom:18%;
+ z-index: 1;
+ display: inline-block;
+
+
+}
+
+input {
+  width: 70%;
+  display: block;
+  border: 1px solid #999;
+  height: 20px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  padding:2%;
+  margin-bottom: 1.5%;
+  margin-top:2%;
+  margin-right:10%;
+  margin-left:10%;
+
+}
+
+
+input:hover{
+  border-color: #008CBA;
+}
+
+input:focus{
+  border: 1px solid #008CBA;
+}
+
+
+
+
+
+.btn{
+color: black; 
+background: transparent;
+border-radius: 6px;
+border-color:#0099CC ;
+text-align: center;
+display: inline-block;
+font-size: 14px; 
+margin-right:10%;
+margin-left:10%;
+-webkit-transition-duration: 0.4s; /* Safari */ 
+transition-duration: 0.4s; 
+cursor: pointer;
+border: 2px solid #008CBA;
+
+}
+.btn:hover {      background-color: #008CBA;      color: white; }
+
+
+
+
+
+.About{
+ float:left;
+ background: url("white-background.png") no-repeat;
+ width: 90%;
+ display:inline-block;
+ padding: 5%;
+ padding-top:1%;
+}
+
+img{
+  padding:1.5%;
+  float: left;
+  }
+
+.mission{
+  font-size: 30px;
+  float:left;
+  text-align: justify;
+}
+
+
+
+.section2{
+   width:30%;
+   padding-left:3.3%;
+
+}
+
+
+
+.images{
+  width:30%;
+
+}
+
+
+
+.heading{
+  margin-left: 2%;
+  text-align: justify;
+  display:flex;
+  
+
+ 
+}
+
+
+.section3{
+  padding: 0.5% 0.5%;
+  margin:5%;
+  align-content: center;
+  text-align: center;
+  display:flex;
+  
+
+
+}
+
+.departments{
+  background: url("white-background.png") no-repeat;
+  width: 90%;
+ display:inline-block;
+ padding: 5%;
+ padding-top:1%;
+
+}
+
+.flex-container2{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #09d3ac;
+
+.section3Click{
+  
+  padding: 0.5% 0.5%;
+  margin:5%;
+  align-content: center;
+  text-align: center;
+  color:#008CBA;
+  display:flex;
+ 
 }
+
+
+.footer{
+  background-color:black;
+  width: 95%;
+  color:white;
+  font-size: 16px;
+  padding-top:5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+
+
+}
+
+.department-image{
+  width:40%;
+  padding-left:5%;
+}
+
+
+
+
+
+
+
+
