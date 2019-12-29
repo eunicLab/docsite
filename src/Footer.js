@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import facebook from './facebook.png'
+import twitter from './twitter.png'
+import instagram from './instagram.png'
+
 class Footer extends React.Component {
 	constructor(){
 		super()
@@ -9,11 +13,17 @@ class Footer extends React.Component {
 		return(
 
 			<div className="footer">
-			<h3>DocSite</h3>
-			<h5>PO Box 1407 </h5>
-			<h5>Anderson, SC 29622</h5>
-			<h5>(864) 965-9990</h5>
+				<div className="socialMedia">
+				<a href="https://www.facebook.com/eunice.nnaji"><img src={facebook} className="icon"/></a>
+				<a href="https://twitter.com/nnaji_eunice"><img src={twitter} className="icon"/></a>
+				<a href="https://www.instagram.com/eunicennaji/"><img src={instagram} className="icon"/></a>
+				</div>
+				<div className="designer">
+				<p>Powered By <a href="https://github.com/eunicLab" className="designerText">EunicLab</a></p>
+				</div>
+				
 			</div>
+
 
 
 

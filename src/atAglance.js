@@ -27,7 +27,7 @@ class AtAGlance extends React.Component {
 		</div>
 
 		<div className="section">
-		<h3>Booking a visit</h3>
+		<h3>Book a visit online</h3>
 		<h5>The best medical service at affordable price</h5>
 		</div>
 

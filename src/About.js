@@ -3,6 +3,7 @@ import './App.css';
 import intensive from './intensive.jpg'
 import wheelchair from './Wheelchair.jpg'
 import massage from './massage.jpg'
+import AtAGlance from './atAglance.js'
 
 class About extends React.Component {
 	constructor(){
@@ -12,21 +13,8 @@ class About extends React.Component {
 	render(){
 		return(
 			<div className="About">
-			
-			<div className="mission">
-			<h3>About Us</h3>
-		We will help to find health, to everyone.
-		integer pulvinar leo id viverra feugiat.Sed porttitor 
-		orci vel fermentum elit maximus. Curabitur ut turpis massa 
-		in condimentum libero.
- 		Integer sit amet mattis quam
- 		Praesent ullamcorper dui turpis
- 			Integer sit amet mattis quam
-
-
-
- </div>
-
+			<h1>About Us</h1>
+			<AtAGlance/>
 
 			<img className= "images" src={intensive} />
 			<img className= "images"src ={wheelchair}/>
@@ -35,21 +23,21 @@ class About extends React.Component {
 			<div className="flex-container">
 
 			<div className="section2">
-			<h1>7200+</h1>
-			<h3>Healthy and Happy Customers</h3>
+			<h3>7200+</h3>
+			<h5>Healthy and Happy Customers</h5>
 			</div>
 
 			<div className="section2">
-			<h1>150+</h1>
-			<h3>Professional medical specialist</h3>
+			<h3>150+</h3>
+			<h5>Professional medical specialist</h5>
 			</div>
 
 			<div className ="section2">
-			<h1>15+</h1>
-			<h3>Years of impeccable work</h3>
+			<h3>15+</h3>
+			<h5>Years of impeccable work</h5>
 			</div>		
 
-
+			
 
 			</div>
 
