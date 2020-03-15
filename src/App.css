@@ -1,42 +1,34 @@
-
 .navbar {
   overflow: hidden;
-  background-color:black;
+  background-color: black;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   width: 100%;
-  z-index:99;
+  z-index: 99;
 }
 
-
 .navbar a {
-  float:left;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
 }
-
-
 
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 
-
-
 .navbar .icon {
   display: none;
 }
 
-
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child){
+  .navbar a:not(:first-child) {
     display: none;
   }
   .navbar a.icon {
@@ -45,11 +37,10 @@
   }
 }
 
-
-
-
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: fixed;}
+  .navbar.responsive {
+    position: fixed;
+  }
   .navbar.responsive a.icon {
     position: absolute;
     right: 0;
@@ -60,8 +51,12 @@
     display: block;
     text-align: left;
   }
-  .navbar.responsive .dropdown {float: none;}
-  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown {
+    float: none;
+  }
+  .navbar.responsive .dropdown-content {
+    position: relative;
+  }
   .navbar.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
@@ -69,299 +64,313 @@
   }
 }
 
-
 .main {
- 
   height: 1500px; /* Used in this example to enable scrolling */
-
-    
-
 }
-.home{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Hospital.jpg") center/cover;
-  width:100%;
-  display:inline-block;
-
-
-}
-
-
-
-@keyframes example {
-  0% { transform: translateX(100%); }
-  25% { transform: translateX(80%); }
-  45% { transform: translateX(70%); }
-  50% { transform: translateX(50%); }
-  70% { transform: translateX(30%); }
-  75% { transform: translateX(10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-
-.home2{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("laboratory.jpg") center/cover;
-  width:100%;
-  display:inline-block;
-  animation-name:example;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-  
-}
-
-
-@keyframes example1 {
-  0% { transform: translateX(100%); }
-  25% { transform: translateX(80%); }
-  45% { transform: translateX(70%); }
-  50% { transform: translateX(50%); }
-  70% { transform: translateX(30%); }
-  75% { transform: translateX(10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-.home3{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
-  width:100%;
-  width:100%;
-  display:inline-block;
-  animation-name:example1;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-  
-}
-
-
-@keyframes example2 {
-  0% { transform: translateX(100%); }
-  25% { transform: translateX(80%); }
-  45% { transform: translateX(70%); }
-  50% { transform: translateX(50%); }
-  70% { transform: translateX(30%); }
-  75% { transform: translateX(10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-.home4{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("staff.jpg") center/cover;
-  width:100%;
-  width:100%;
-  display:inline-block;
-  animation-name:example2;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-  
-}
-
-
-
-.homeb{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Hospital.jpg") center/cover;
-  width:100%;
-  display:inline-block;
-  animation-name:sample;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-
-
-}
-
-
-@keyframes sample {
-  0% { transform: translateX(-100%); }
-  25% { transform: translateX(-80%); }
-  45% { transform: translateX(-70%); }
-  50% { transform: translateX(-50%); }
-  70% { transform: translateX(-30%); }
-  75% { transform: translateX(-10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-
-
-
-.home2b{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("laboratory.jpg") center/cover;
-  width:100%;
-  display:inline-block;
-  animation-name:sample2;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-  
-}
-
-@keyframes sample2 {
-  0% { transform: translateX(-100%); }
-  25% { transform: translateX(-80%); }
-  45% { transform: translateX(-70%); }
-  50% { transform: translateX(-50%); }
-  70% { transform: translateX(-30%); }
-  75% { transform: translateX(-10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-
-
-
-.home3b{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
-  width:100%;
-  width:100%;
-  display:inline-block;
-  animation-name:sample3;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.2s;
-
-  
-}
-
-@keyframes sample3 {
-  0% { transform: translateX(-100%); }
-  25% { transform: translateX(-80%); }
-  45% { transform: translateX(-70%); }
-  50% { transform: translateX(-50%); }
-  70% { transform: translateX(-30%); }
-  75% { transform: translateX(-10%); }
-  95% { transform: translateX(0%); }
-  
-}
-
-
-
-
-
-
-
-.navArrow1{
-float: left;
-width:5% ;
-height:5%;
-display:block;
-cursor: pointer;
-padding-right: 5%;
-}
-
-.navArrow2{
-
-width:5% ;
-height:5%;
-display:block;
-cursor:pointer;
-padding-left: 30%;
-
-}
-
-
-.navArrow2index{
-
-width:5% ;
-height:5%;
-display:block;
-cursor:pointer;
-padding-left: 30%;
-
-}
-
-
-.stickerNotes{
-  float: left;
-  background:white;
-  width:40%;
-  padding:5%;
-  margin-bottom: 18%;
-
- 
-
-}
-
-.stickerNotesindex{
-  float: left;
-  background:white;
-  width:40%;
-  padding:5%;
-  margin-left:10%;
-  margin-bottom: 18%;
-
-}
-
-
-
-.sticker{
-
-  padding-left:5%;
-  padding-top: 20%;
-  display:block;
-}
-
-.noDisplay{
-  display:none;
-}
-
-.section{
-  float:left;
-  padding: 1px 2px;
-  margin:1px;
-  align-content: center;
-  text-align: center;
- float:left;
-}
-
-
-
-
-.BookAppointment{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("frontdesk.jpg") center/cover;
-  width:100%;
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('Hospital.jpg') center/cover;
+  width: 100%;
   display: inline-block;
 }
 
-
-
-.flex-container{
- width: 90%;
- display:flex;
- flex-flow: row wrap;
- align-content: center;
-text-align: center;
-justify-content: center;
-
+@keyframes example {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(80%);
+  }
+  45% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  70% {
+    transform: translateX(30%);
+  }
+  75% {
+    transform: translateX(10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
 }
 
-
-
-
-
-.AtAGlance{
- width: 100%;
- display:flex;
- flex-flow: row wrap;
- align-content: center;
-text-align: center;
-justify-content: center;
+.home2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('laboratory.jpg') center/cover;
+  width: 100%;
+  display: inline-block;
+  animation-name: example;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
 }
 
+@keyframes example1 {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(80%);
+  }
+  45% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  70% {
+    transform: translateX(30%);
+  }
+  75% {
+    transform: translateX(10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+}
 
+.home3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('frontdesk.jpg') center/cover;
+  width: 100%;
+  width: 100%;
+  display: inline-block;
+  animation-name: example1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+}
 
+@keyframes example2 {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(80%);
+  }
+  45% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  70% {
+    transform: translateX(30%);
+  }
+  75% {
+    transform: translateX(10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+}
 
+.home4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('staff.jpg') center/cover;
+  width: 100%;
+  width: 100%;
+  display: inline-block;
+  animation-name: example2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+}
+
+.homeb {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('Hospital.jpg') center/cover;
+  width: 100%;
+  display: inline-block;
+  animation-name: sample;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+}
+
+@keyframes sample {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-80%);
+  }
+  45% {
+    transform: translateX(-70%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+}
+
+.home2b {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('laboratory.jpg') center/cover;
+  width: 100%;
+  display: inline-block;
+  animation-name: sample2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+}
+
+@keyframes sample2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-80%);
+  }
+  45% {
+    transform: translateX(-70%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+}
+
+.home3b {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('frontdesk.jpg') center/cover;
+  width: 100%;
+  width: 100%;
+  display: inline-block;
+  animation-name: sample3;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.2s;
+}
+
+@keyframes sample3 {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-80%);
+  }
+  45% {
+    transform: translateX(-70%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+}
+
+.navArrow1 {
+  float: left;
+  width: 5%;
+  height: 5%;
+  display: block;
+  cursor: pointer;
+  padding-right: 5%;
+}
+
+.navArrow2 {
+  width: 5%;
+  height: 5%;
+  display: block;
+  cursor: pointer;
+  padding-left: 30%;
+}
+
+.navArrow2index {
+  width: 5%;
+  height: 5%;
+  display: block;
+  cursor: pointer;
+  padding-left: 30%;
+}
+
+.stickerNotes {
+  float: left;
+  background: white;
+  width: 40%;
+  padding: 5%;
+  margin-bottom: 18%;
+}
+
+.stickerNotesindex {
+  float: left;
+  background: white;
+  width: 40%;
+  padding: 5%;
+  margin-left: 10%;
+  margin-bottom: 18%;
+}
+
+.sticker {
+  padding-left: 5%;
+  padding-top: 20%;
+  display: block;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.section {
+  float: left;
+  padding: 1px 2px;
+  margin: 1px;
+  align-content: center;
+  text-align: center;
+  float: left;
+}
+
+.BookAppointment {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('frontdesk.jpg') center/cover;
+  width: 100%;
+  display: inline-block;
+}
+
+.flex-container {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.AtAGlance {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
 
 form {
-  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -webkit-linear-gradient(bottom, #cccccc, #eeeeee 175px);
+  background: -moz-linear-gradient(bottom, #cccccc, #eeeeee 175px);
+  background: linear-gradient(bottom, #cccccc, #eeeeee 175px);
   width: 30%;
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 18px;
@@ -369,21 +378,19 @@ form {
   font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
-  padding:15px;
+  padding: 15px;
   border: 1px solid #999;
   border: inset 1px solid #333;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  background-color:white;
- margin-left:60%;
- margin-top:20%;
- text-align: center;
- margin-bottom:18%;
- z-index: 1;
- display: inline-block;
-
-
+  background-color: white;
+  margin-left: 60%;
+  margin-top: 20%;
+  text-align: center;
+  margin-bottom: 18%;
+  z-index: 1;
+  display: inline-block;
 }
 
 input {
@@ -396,172 +403,133 @@ input {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   cursor: pointer;
-  padding:2%;
+  padding: 2%;
   margin-bottom: 1.5%;
-  margin-top:2%;
-  margin-right:10%;
-  margin-left:10%;
-
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
-
-input:hover{
-  border-color: #008CBA;
+input:hover {
+  border-color: #008cba;
 }
 
-input:focus{
-  border: 1px solid #008CBA;
+input:focus {
+  border: 1px solid #008cba;
 }
 
-
-
-
-
-.btn{
-color: black; 
-background: transparent;
-border-radius: 6px;
-border-color:#0099CC ;
-text-align: center;
-display: inline-block;
-font-size: 14px; 
-margin-right:10%;
-margin-left:10%;
--webkit-transition-duration: 0.4s; /* Safari */ 
-transition-duration: 0.4s; 
-cursor: pointer;
-border: 2px solid #008CBA;
-
+.btn {
+  color: black;
+  background: transparent;
+  border-radius: 6px;
+  border-color: #0099cc;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10%;
+  margin-left: 10%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #008cba;
 }
-.btn:hover {      background-color: #008CBA;      color: white; }
-
-
-
-
-
-.About{
- background: url("white-background.png") no-repeat;
- width: 90%;
- display:inline-block;
- padding: 5%;
- padding-top:1%;
+.btn:hover {
+  background-color: #008cba;
+  color: white;
 }
 
-img{
-  padding:1.5%;
+.About {
+  background: url('white-background.png') no-repeat;
+  width: 90%;
+  display: inline-block;
+  padding: 5%;
+  padding-top: 1%;
+}
+
+img {
+  padding: 1.5%;
   float: left;
-  }
-
-
-
-
-.section2{
-   width:30%;
-   padding-left:3.3%;
-
 }
 
-
-
-.images{
-  width:30%;
-
+.section2 {
+  width: 30%;
+  padding-left: 3.3%;
 }
 
+.images {
+  width: 30%;
+}
 
-
-.heading{
+.heading {
   margin-left: 2%;
   text-align: justify;
-  display:flex;
-  
-
- 
+  display: flex;
 }
 
-
-.section3{
+.section3 {
   padding: 0.5% 0.5%;
-  margin:5%;
+  margin: 5%;
   align-content: center;
   text-align: center;
-  display:flex;
+  display: flex;
   cursor: pointer;
-
-  
-
-
 }
 
-.departments{
-  background: url("white-background.png") no-repeat;
+.departments {
+  background: url('white-background.png') no-repeat;
   width: 90%;
- display:inline-block;
- padding: 5%;
- padding-top:1%;
-
+  display: inline-block;
+  padding: 5%;
+  padding-top: 1%;
 }
 
-.flex-container2{
+.flex-container2 {
   display: flex;
   flex-direction: row;
 }
 
-
-.section3Click{
-  
+.section3Click {
   padding: 0.5% 0.5%;
-  margin:5%;
+  margin: 5%;
   align-content: center;
   text-align: center;
-  color:#008CBA;
-  display:flex;
+  color: #008cba;
+  display: flex;
   cursor: pointer;
-
- 
 }
 
-
-.footer{
-  background-color:black;
-  color:white;
+.footer {
+  background-color: black;
+  color: white;
   font-size: 12px;
-  padding-top:5%;
+  padding-top: 5%;
   padding-bottom: 10%;
   padding-top: 5%;
-
 }
 
-.department-image{
-  width:40%;
-  padding-left:5%;
+.department-image {
+  width: 40%;
+  padding-left: 5%;
 }
 
-.icon{
+.icon {
   width: 20px;
-  height:20px;
-  padding-bottom:10%;
-  padding-left:10%;
+  height: 20px;
+  padding-bottom: 10%;
+  padding-left: 10%;
 }
 
-
-.socialMedia{
+.socialMedia {
   align-content: center;
   display: flex;
   padding-left: 45%;
 }
 
-.designer{
-
-  display:flex;
+.designer {
+  display: flex;
   padding-left: 43%;
-  
 }
 
-.designerText{
-  color:white;
+.designerText {
+  color: white;
 }
-
-
-
-
